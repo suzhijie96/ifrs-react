@@ -1,0 +1,10 @@
+{
+  "/api/": {
+    "target": "http://risktest.k5.bigtree.tech",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "/api/": "/"
+    }
+  }
+}
